@@ -26,6 +26,21 @@ Trinity aims to support the following platforms:
 - Linux
 - MacOS
 
+## Previous unpublished version
+<img src="../res/old-trinity.png" width="45%" align="right">
+
+The first scrapped version of Trinity was an advanced [raycaster](https://lodev.org/cgtutor/raycasting.html).
+It had a sky with proper 3D perspective, angled walls and supported varying floor and ceiling height,
+just like Doom. I achieved that using a simple "sector" technique I came up with, which split each
+screen column into parts based on the floor/ceiling height. It basically grouped together multiple
+tiles of the same height into a "sector" and rendered it. If the sector floor is higher than the
+previous sector floor, a wall is rendered. If the sector ceiling is lower than the previous sector
+ceiling, a wall is rendered too.
+
+This engine was cool as an advanced raycaster engine, but really limited as just a game engine.
+That's why I decided to make the new Trinity a Build-style engine, which is probably the most
+flexible type of 2.5D software rendered engine.
+
 <br>
 <h1></h1>
 <br>
