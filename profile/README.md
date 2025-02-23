@@ -11,6 +11,14 @@
 	<br>
 </div>
 
+<details>
+	<summary>Table of contents</summary>
+	<ul>
+		<li><a href="#introduction">Introduction</a></li>
+		<li><a href="#previous-unpublished-version">Previous unpublished version</a></li>
+	</ul>
+</details>
+
 ## Introduction
 > [!NOTE]
 > Trinity is a work-in-progress and is currently not public.
