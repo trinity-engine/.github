@@ -23,7 +23,7 @@
 > [!NOTE]
 > Trinity is a work-in-progress and is currently not public.
 
-**Trinity** is a retro 2.5D software rendered game engine written in [C99](https://en.wikipedia.org/wiki/C99)
+**Trinity** is a retro 2.5D software-rendered game engine written in [C99](https://en.wikipedia.org/wiki/C99)
 using the [SDL2](https://wiki.libsdl.org/SDL2/FrontPage) library and [Lua](https://www.lua.org/about.html)
 for scripting. It is inspired by game engines like [Valve's Source engine](https://en.wikipedia.org/wiki/Source_(game_engine)),
 the [Doom engine](https://en.wikipedia.org/wiki/Doom_engine), the [Build engine](https://en.wikipedia.org/wiki/Build_(game_engine))
@@ -44,7 +44,7 @@ angled walls, and support for varying floor and ceiling heights, similar to Doom
 To achieve this, I came up with a simple "sector" technique that divides each screen column into
 segments based on tile floor and ceiling heights. Essentially, it groups together multiple tiles of
 the same floor/ceiling height into a "sector" and renders it. If a sector's floor is higher than the
-previous one, a wall is drawn to close the gap. Similarly, if the sector's ceiling was lower than
+previous one, a wall is drawn to close the gap. Similarly, if the sector's ceiling is lower than
 the previous one, a wall is again rendered to close the gap.
 
 For angled walls, I used basic line intersection checks between the ray line and the tile's internal
