@@ -15,7 +15,7 @@
 	<summary>Table of contents</summary>
 	<ul>
 		<li><a href="#introduction">Introduction</a></li>
-		<li><a href="#previous-unpublished-version">Previous unpublished version</a></li>
+		<li><a href="#previous-unpublished-version">Previous Unpublished Version</a></li>
 	</ul>
 </details>
 
@@ -34,7 +34,7 @@ Trinity aims to support the following platforms:
 - Linux
 - MacOS
 
-## Previous unpublished version
+## Previous Unpublished Version
 <img src="../res/old-trinity.png" width="45%" align="right">
 
 The first scrapped version of Trinity was an advanced [raycaster](https://lodev.org/cgtutor/raycasting.html).
