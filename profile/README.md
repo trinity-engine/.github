@@ -30,16 +30,26 @@ Trinity aims to support the following platforms:
 <img src="../res/old-trinity.png" width="45%" align="right">
 
 The first scrapped version of Trinity was an advanced [raycaster](https://lodev.org/cgtutor/raycasting.html).
-It had a sky with proper 3D perspective, angled walls and supported varying floor and ceiling height,
-just like Doom. I achieved that using a simple "sector" technique I came up with, which split each
-screen column into parts based on the floor/ceiling height. It basically grouped together multiple
-tiles of the same height into a "sector" and rendered it. If the sector floor is higher than the
-previous sector floor, a wall is rendered. If the sector ceiling is lower than the previous sector
-ceiling, a wall is rendered too.
+It had a sky with proper 3D perspective, procedurally animated water with an illusion of "3D" waves,
+angled walls, and support for varying floor and ceiling heights, similar to Doom.
 
-This engine was cool as an advanced raycaster engine, but really limited as just a game engine.
-That's why I decided to make the new Trinity a Build-style engine, which is probably the most
-flexible type of 2.5D software rendered engine.
+To achieve this, I came up with a simple "sector" technique that divides each screen column into
+segments based on tile floor and ceiling heights. Essentially, it groups together multiple tiles of
+the same floor/ceiling height into a "sector" and renders it. If a sector's floor is higher than the
+previous one, a wall is drawn to close the gap. Similarly, if the sector's ceiling was lower than
+the previous one, a wall is again rendered to close the gap.
+
+For angled walls, I used basic line intersection checks between the ray line and the tile's internal
+geometry to determine the correct wall offset for the column.
+
+The water animation was inspired by Quake's wobbly portal texture animation. I observed its behavior
+and attempted to recreate it using a simple sine/cosine combination for both axes. To achieve the
+"3D" water waves illusion, a sine-wave cutout is generated along the edge of water sectors and water
+is rendered inside that shape.
+
+While this engine was perhaps impressive as an advanced raycaster, it was too limited for general
+game development. That's why I decided to remake Trinity as a Build-style engine - arguably the most
+flexible type of 2.5D software-rendered engine.
 
 <br>
 <h1></h1>
