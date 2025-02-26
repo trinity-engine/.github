@@ -11,8 +11,9 @@
 
 ## 1st Version
 <div align="center">
-	<img width="90%" src="../res/old/v1.png">
+	<img width="80%" src="../res/old/v1.png">
 </div>
+<br>
 
 The first ever version of Trinity. Trinity was not actually even called Trinity yet, the name
 Trinity only started being used during the 3rd version. This version was mostly just a basic RGB
@@ -23,8 +24,9 @@ versions. I even started developing a UI which I extended in the next version.
 
 ## 2nd Version
 <div align="center">
-	<img width="90%" src="../res/old/v2.png">
+	<img width="80%" src="../res/old/v2.png">
 </div>
+<br>
 
 Probably the funnest version. This is the version where I decided I want this to be a game engine.
 I made some basic Valve-inspired placeholder textures, added 45-degree angled walls, a lightmap
@@ -34,8 +36,9 @@ UI (they were placeholder colors though, of course).
 
 ## 3rd Version
 <div align="center">
-	<img width="90%" src="../res/old/v3.png">
+	<img width="80%" src="../res/old/v3.png">
 </div>
+<br>
 
 This is the point when Trinity started being called Trinity. The engine probably got the most
 advanced in this version. The mistake of the previous version was creating a map editor before the
@@ -46,8 +49,9 @@ texture animation (described in the [README.md Last Unpublished Version section]
 
 ## 4th Version
 <div align="center">
-	<img width="90%" src="../res/old/v4.png">
+	<img width="80%" src="../res/old/v4.png">
 </div>
+<br>
 
 I made a logo for Trinity in this version. I wanted to keep it simple and retro-looking, and I was
 quite satisfied with the result. The engine recieved minor improvements in this version, such as
