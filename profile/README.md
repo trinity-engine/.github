@@ -5,9 +5,9 @@
 	<p align="center">A retro 2.5D game engine</p>
 	<p align="center">
 		<a href="https://github.com/trinity-engine/trinity">Source code [WIP]</a>
-		.
+		·
 		<a href="https://github.com/trinity-engine/trinity-demos">Demos [WIP]</a>
-		.
+		·
 		<a href="./history.md">History [WIP]</a>
 	</p>
 	<img alt="Trinity" src="../res/badge-light.png" width="88px">
