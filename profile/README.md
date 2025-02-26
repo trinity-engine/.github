@@ -8,12 +8,13 @@
 		.
 		<a href="https://github.com/trinity-engine/trinity-demos">Demos [WIP]</a>
 		.
-		<a href="./history.md">History</a>
-		.
-		<a href="./88x31.md">88x31</a>
+		<a href="./history.md">History [WIP]</a>
 	</p>
 	<img alt="Trinity" src="../res/badge-light.png" width="88px">
-	<br>
+	<img alt="Trinity" src="../res/badge-dark.png" width="88px">
+	<img alt="Trinity" src="../res/badge-alt-light.png" width="88px">
+	<img alt="Trinity" src="../res/badge-alt-dark.png" width="88px">
+	<br><br>
 </div>
 
 <details>
@@ -65,7 +66,7 @@ game development. That's why I decided to remake Trinity as a Build-style engine
 flexible type of 2.5D software-rendered engine.
 
 > [!NOTE]
-> The [Trinity history](./history.md) shows all old versions of Trinity.
+> See the [Trinity history](./history.md) for all old versions of Trinity.
 
 <br>
 <h1></h1>
