@@ -7,7 +7,12 @@
 		<a href="https://github.com/trinity-engine/trinity">Source code [WIP]</a>
 		.
 		<a href="https://github.com/trinity-engine/trinity-demos">Demos [WIP]</a>
+		.
+		<a href="./history.md">History</a>
+		.
+		<a href="./88x31.md">88x31</a>
 	</p>
+	<img alt="Trinity" src="../res/badge-light.png" width="88px">
 	<br>
 </div>
 
@@ -15,7 +20,7 @@
 	<summary>Table of contents</summary>
 	<ul>
 		<li><a href="#introduction">Introduction</a></li>
-		<li><a href="#previous-unpublished-version">Previous Unpublished Version</a></li>
+		<li><a href="#last-unpublished-version">Last Unpublished Version</a></li>
 	</ul>
 </details>
 
@@ -34,8 +39,8 @@ Trinity aims to support the following platforms:
 - Linux
 - MacOS
 
-## Previous Unpublished Version
-<img src="../res/old-trinity.png" width="45%" align="right">
+## Last Unpublished Version
+<img src="../res/previous-trinity.png" width="45%" align="right">
 
 The first scrapped version of Trinity was an advanced [raycaster](https://lodev.org/cgtutor/raycasting.html).
 It had a sky with proper 3D perspective, procedurally animated water with an illusion of "3D" waves,
@@ -58,6 +63,9 @@ is rendered inside that shape.
 While this engine was perhaps impressive as an advanced raycaster, it was too limited for general
 game development. That's why I decided to remake Trinity as a Build-style engine - arguably the most
 flexible type of 2.5D software-rendered engine.
+
+> [!NOTE]
+> The [Trinity history](./history.md) shows all old versions of Trinity.
 
 <br>
 <h1></h1>
