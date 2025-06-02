@@ -1,6 +1,6 @@
 <a name="readme-top"></a>
 <div align="center">
-	<h1>Moved to <a href="https://git.gay/trinity-engine">https://git.gay/trinity-engine</a></h1>
+	<h1>Moved to <a href="https://codeberg.org/trinity-engine">https://codeberg.org/trinity-engine</a></h1>
 	<img src="../res/logo.png" width="150px">
 	<h1 align="center">Trinity</h1>
 	<p align="center">A retro 2.5D game engine</p>
